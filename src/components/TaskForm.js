@@ -37,7 +37,7 @@ const TaskForm = ({ tasks, setTasks }) => {
         />
 
         <select
-          className="w-40 border rounded px-3 py-2 focus:outline-none"
+          className="md:w-40 border rounded px-3 py-2 focus:outline-none"
           value={task.priority}
           onChange={(e) => setTask({ ...task, priority: e.target.value })}
         >
@@ -48,7 +48,7 @@ const TaskForm = ({ tasks, setTasks }) => {
 
         <input
           type="date"
-          className="w-44 border rounded px-3 py-2 focus:outline-none"
+          className="md:w-44 border rounded px-3 py-2 focus:outline-none"
           value={task.date}
           onChange={(e) => setTask({ ...task, date: e.target.value })}
           required

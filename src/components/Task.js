@@ -44,8 +44,8 @@ const Task = ({ task, tasks, setTasks }) => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-center">
-            <div className="mt-3 flex gap-2">
+          <div className="flex md:justify-between items-center">
+            <div className="mt-3 flex gap-2 ">
               {!task.completed && (
                 <button className="px-3 py-1 border rounded text-sm">Edit</button>
               )}
