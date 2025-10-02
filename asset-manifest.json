@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LimeTrayAssignment/static/css/main.48b64900.css",
-    "main.js": "/LimeTrayAssignment/static/js/main.84ec4490.js",
+    "main.css": "/LimeTrayAssignment/static/css/main.f22d87e1.css",
+    "main.js": "/LimeTrayAssignment/static/js/main.416a8823.js",
     "static/js/453.4f600e7b.chunk.js": "/LimeTrayAssignment/static/js/453.4f600e7b.chunk.js",
     "index.html": "/LimeTrayAssignment/index.html",
-    "main.48b64900.css.map": "/LimeTrayAssignment/static/css/main.48b64900.css.map",
-    "main.84ec4490.js.map": "/LimeTrayAssignment/static/js/main.84ec4490.js.map",
+    "main.f22d87e1.css.map": "/LimeTrayAssignment/static/css/main.f22d87e1.css.map",
+    "main.416a8823.js.map": "/LimeTrayAssignment/static/js/main.416a8823.js.map",
     "453.4f600e7b.chunk.js.map": "/LimeTrayAssignment/static/js/453.4f600e7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48b64900.css",
-    "static/js/main.84ec4490.js"
+    "static/css/main.f22d87e1.css",
+    "static/js/main.416a8823.js"
   ]
 }
