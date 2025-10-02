@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import TaskForm from "./components/TaskForm";
 import useLocalStorage from "./hooks/useLocalStorage";
-import { arrayMove, SortableItem } from '@dnd-kit/sortable';
+import { arrayMove } from '@dnd-kit/sortable';
 import {
   DndContext,
   useSensor,

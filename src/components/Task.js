@@ -14,7 +14,7 @@ const Task = ({ task, tasks, setTasks }) => {
   };
 
   return (
-    <li
+    <div
       className={`${task.completed ? "bg-slate-100" : "bg-white"
         } p-4 rounded shadow flex flex-col md:flex-row md:items-center gap-3`}
     >
@@ -44,7 +44,7 @@ const Task = ({ task, tasks, setTasks }) => {
               </div>
             </div>
           </div>
-          <div className="flex md:justify-between items-center">
+          <div className="flex justify-between items-center">
             <div className="mt-3 flex gap-2 ">
               {!task.completed && (
                 <button className="px-3 py-1 border rounded text-sm">Edit</button>
@@ -64,14 +64,14 @@ const Task = ({ task, tasks, setTasks }) => {
                 </button>
               )}
             </div>
-            <div className="text-xs text-slate-400">
-              Created {new Date(task.createdAt).toLocaleString()}
+            <div className="text-xs text-slate-400">  
+              Created {new Date(task.createdAt).toLocaleDateString()}
             </div>
           </div>
         </div>
       </div>
 
-    </li>
+    </div>
   );
 };
 
